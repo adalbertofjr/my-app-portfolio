@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.adalbertofjr.myappportfolio.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/my_nanodegree_apps"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_popular_movies"
+            style="@style/Button.AppTheme"
+            android:layout_below="@+id/tv_title"
+            android:text="@string/popular_movies" />
+
+        <Button
+            android:id="@+id/btn_stock_hawk"
+            style="@style/Button.AppTheme"
+            android:layout_below="@+id/btn_popular_movies"
+            android:text="@string/stock_hawk" />
+
+        <Button
+            android:id="@+id/btn_build_bigger"
+            style="@style/Button.AppTheme"
+            android:layout_below="@+id/btn_stock_hawk"
+            android:text="@string/build_it_bigger" />
+
+        <Button
+            android:id="@+id/btn_make_material"
+            style="@style/Button.AppTheme"
+            android:layout_below="@+id/btn_build_bigger"
+            android:text="@string/make_your_app_material" />
+
+        <Button
+            android:id="@+id/btn_go_ubiquitous"
+            style="@style/Button.AppTheme"
+            android:layout_below="@+id/btn_make_material"
+            android:text="@string/go_ubiquitous" />
+
+        <Button
+            android:id="@+id/btn_capstone"
+            style="@style/Button.AppTheme"
+            android:layout_below="@+id/btn_go_ubiquitous"
+            android:text="@string/capstone" />
+    </RelativeLayout>
+
+
+</ScrollView>
