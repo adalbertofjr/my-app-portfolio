@@ -34,28 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        int id = view.getId();
-        switch (id) {
-            case R.id.btn_popular_movies:
-                showToast(((Button) view).getText().toString().toLowerCase());
-                break;
-            case R.id.btn_stock_hawk:
-                showToast(((Button) view).getText().toString().toLowerCase());
-                break;
-            case R.id.btn_build_bigger:
-                showToast(((Button) view).getText().toString().toLowerCase());
-                break;
-            case R.id.btn_make_material:
-                showToast(((Button) view).getText().toString().toLowerCase());
-                break;
-            case R.id.btn_go_ubiquitous:
-                showToast(((Button) view).getText().toString().toLowerCase());
-                break;
-            case R.id.btn_capstone:
-                showToast(((Button) view).getText().toString().toLowerCase());
-                break;
-        }
-
+        showToast(((Button) view).getText().toString().toLowerCase());
     }
 
     private void showToast(String btnLabel) {

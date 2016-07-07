@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My App Portfolio</string>
     <string name="my_nanodegree_apps">My Nanodegree Apps!</string>
     <string name="popular_movies">Popular Movies</string>
-    <string name="stock_hawk">Stock Hawk</string>
+    <string name="stock_hawk" translatable="false">Stock Hawk</string>
     <string name="build_it_bigger">Build it Bigger</string>
     <string name="make_your_app_material">Make Your App Material</string>
     <string name="go_ubiquitous">Go Ubiquitous</string>
-    <string name="capstone">Capstone</string>
+    <string name="capstone" translatable="false">Capstone</string>
     <string name="activity_main_msg_toast">This button will launch my %s app!</string>
 </resources>

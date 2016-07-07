@@ -3,10 +3,8 @@
     <string name="app_name">Portifólio Meus Aplicativos</string>
     <string name="my_nanodegree_apps">Meus Apps Nanodegree!</string>
     <string name="popular_movies">Filmes populares</string>
-    <string name="stock_hawk">Stock Hawk</string>
     <string name="build_it_bigger">Faça-o maior</string>
     <string name="make_your_app_material">Torne seu aplicativo Material</string>
     <string name="go_ubiquitous">Seja onipresente</string>
-    <string name="capstone">Capstone</string>
     <string name="activity_main_msg_toast">Este botão irá iniciar meu aplicativo %s!</string>
 </resources>
